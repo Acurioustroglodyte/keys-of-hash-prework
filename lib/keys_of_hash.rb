@@ -7,6 +7,7 @@ class Hash
         animal
       end
     end
+    binding.pry
     matched_keys
   end
 end
