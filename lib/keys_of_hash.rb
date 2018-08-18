@@ -2,9 +2,9 @@ require 'pry'
 
 class Hash
   def keys_of(*arguments)
-    # You're on the right track
+    # You're on the right track.
     matched_keys = []
-    self.collect do |animal, country|
+    self.each do |animal, country|
       if arguments.include?(country)
         matched_keys << animal
       else
