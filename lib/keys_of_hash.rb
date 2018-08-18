@@ -7,5 +7,6 @@ class Hash
         animal
       end
     end
+    binding.pry
   end
 end
