@@ -6,9 +6,9 @@ class Hash
       if arguments.include?(country)
         animal
       else
-        break
+        
       end
     end
-    binding.pry
+    matched_keys
   end
 end
